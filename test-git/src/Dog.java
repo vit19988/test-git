@@ -16,6 +16,10 @@ public class Dog {
 	public void setColor(String color) {
 		this.color = color;
 	}
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + ", color=" + color + "]";
+	}
 	
 	//comment1
 	//comment2
